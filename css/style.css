@@ -1,0 +1,339 @@
+
+body {min-width:1820px;}
+
+/* vspl okno */
+
+.Modal {  
+    position: fixed;  
+    display: none;  
+    top: 0;  
+    right: 0;  
+    bottom: 0;  
+    left: 0;  
+    z-index: 0;  
+    background: rgba(0, 0, 0, 0.7);  
+    pointer-events: none;  
+}  
+.Modal:target {  
+    display: flex;  
+    pointer-events: auto;  
+}  
+.Modal_Body {  
+    border-radius: 30px;
+    position: relative;  
+    z-index: 2;  
+    display: block;  
+    margin: auto;  
+    padding: 15px;  
+    background: goldenrod;  
+    height: 400px;
+    width: 350px;
+}  
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.logowin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.mer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pasta{
+   margin-top: 100px;
+   margin-left: 475px;
+}
+
+#pocta{
+    border-radius: 15px;
+    margin-top: 50px;
+    font-size: 25px;
+    height: 50px;
+    width: 330px;
+}
+
+#pas{
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    height: 50px;
+    width: 330px;
+}
+
+#zar{
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 35px;
+    height: 50px;
+    width: 335px;
+}
+
+#txtotz{
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 35px;
+    height: 500px;
+    width: 600px;
+    word-wrap: break-word;
+}
+
+#otp{
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 35px;
+    height: 50px;
+    width: 350px;
+}
+
+.ModalOtz {  
+    position: fixed;  
+    display: none;  
+    top: 0;  
+    right: 0;  
+    bottom: 0;  
+    left: 0;  
+    z-index: 0;  
+    background: rgba(0, 0, 0, 0.7);  
+    pointer-events: none;  
+}  
+.ModalOtz:target {  
+    display: flex;  
+    pointer-events: auto;  
+}  
+.Modal_Body_Otz {  
+    border-radius: 30px;
+    position: relative;  
+    z-index: 2;  
+    display: block;  
+    margin: auto;  
+    padding: 15px;  
+    background: goldenrod;  
+    height: 600px;
+    width: 700px;
+}  
+
+/* vspl okno */
+
+html,body { 
+height: 100%; 
+}
+
+/* txt */
+.pred{
+    display: block;
+    margin-top: 150px;
+    margin-left: 260px;
+    font-size: 50px;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: hsl(41, 96%, 41%);
+    
+}
+.txt1{
+    font-size: 35px;
+}
+
+.linetxt{
+    display: inline-block;
+}
+
+.center{
+    text-align: center;
+   }
+/* txt */
+
+/* hader */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    clear: fix;
+    
+}
+header{ 
+    height:120px;     
+}
+
+#shap{
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: bold;
+    line-height: 100px; 
+    font-size: 24px; 
+    float:right
+}
+
+/* hader */
+
+/* img */
+
+#knosv{
+    margin-top: 200px;
+    width: 50px;
+    height: 200px;
+}
+
+.otsicon{
+    padding-right: 200px;
+}
+
+#icon1{
+    width: 70px;
+    height: 70px;
+    float:right;
+    padding-right: 15px;
+}
+#icon2{
+    width: 75px;
+    height: 75px;
+    float:right;
+    padding-right: 30px;
+}
+
+#backfon1 {
+    background-image: url(../img/fon_mvey.jpg);
+    background-position: center center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-size: cover;
+}
+#backfon2 {
+    background-image: url(../img/fon_pers.png);
+    background-position: center center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-size: cover;
+}
+#backfon3 {
+    background-image: url(../img/fon_infa.png);   
+    background-position: center center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-size: cover;
+}
+#backfon4 {
+    background-image: url(../img/fon_update.png);
+    background-position: center center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-size: cover;
+}
+#backfon5 {
+    background-image: url(../img/fon_svas.png);
+    background-position: center center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+
+#mainnav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-right: 200px;
+    margin-top: 63px;
+}
+
+#mainnav li{
+    padding-right: 25px;
+    display: inline;
+}
+/* img */
+
+/* main pers */
+.perban{
+    border-radius: 30px;
+    display: inline;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+/* main pers */
+
+#dowl {
+    height: 100px;
+    width: 300px;
+    font-size: 50px;
+    float: right;
+    background-color: goldenrod;
+    margin-right: 250px;
+    margin-top: 50px;
+    
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#txt2 {
+    word-wrap: break-word;
+    width: 1200px;
+    margin-top: 150px;
+    margin-left: 200px;
+    font-size: 35px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: hsl(41, 96%, 41%);
+}
+.obnov{
+    text-decoration: bold;
+    font-size: 60px;
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 1500px;
+    word-wrap: break-word;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: hsl(41, 96%, 41%);
+}
+.col{
+    margin-left: 200px;
+    font-size: 35px;
+}
+.yo{
+    margin-left: 400px;
+    width: 1400px;
+   
+    font-size: 45px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: hsl(41, 96%, 41%);
+}
+
+#wrapper{ 
+min-height: 100%; 
+height: auto !important; 
+height: 100%; 
+width: 100%; 
+} 
+
+main{ 
+padding-bottom: 100px; 
+} 
+
+footer{    
+margin: -100px auto 0; 
+position: relative; 
+height: 100px; 
+}
+
+
+ 
